@@ -15,7 +15,7 @@ function Dashboard() {
     const formData = new FormData();
     formData.append("file", file);
 
-    const res = await fetch("http://localhost:3000/api/dashboard", {
+    const res = await fetch("https://timepass-backend-ihwp.onrender.com/api/dashboard", {
     
       method: "POST",
     headers: {
